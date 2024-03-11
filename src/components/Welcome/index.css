@@ -1,0 +1,45 @@
+.welcome-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-main-heading {
+  font-family: Roboto;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.welcome-from {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  width: 90vw;
+  max-width: 750px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.username-input {
+  width: 90%;
+  max-width: 250px;
+  height: 32px;
+  border: solid 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.play-button {
+  background-color: blue;
+  color: #ffffff;
+  height: 32px;
+  border: 0;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 16px;
+}

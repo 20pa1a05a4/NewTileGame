@@ -1,0 +1,31 @@
+.game-main-heading {
+  font-family: Roboto;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.game-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-score {
+  font-family: Roboto;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
