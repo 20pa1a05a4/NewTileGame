@@ -1,9 +1,9 @@
 {
-    "name": "tileGame",
+    "name": "tile",
     "private": true,
     "version": "1.0.0",
     "engines": {
-        "node": "^10.13 || 15 || 20",
+        "node": "20",
         "npm": ">=6"
     },
     "dependencies": {
