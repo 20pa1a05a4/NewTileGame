@@ -55,13 +55,14 @@ class TileGame extends Component {
   }
 
   render() {
-    const {score} = this.state
+    const {score, username} = this.state
 
     return (
       <div className="game-bg">
         <h1 className="game-main-heading">Mahajong Game</h1>
         <div className="game-stats">
           <p className="game-score">Score: {score}</p>
+          <p className="game-score">HI, {username}</p>
         </div>
         <ul className="ul">
           {tiles.map(eachElement => (
